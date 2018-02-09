@@ -12,7 +12,7 @@
 ### Run
 1. Optionally edit **run.sh** if you want to run your *own* build and provide the name you have given in the previous section.
 2. Make run.sh executable ```chmod +x run.sh```
-3. ```sudo ./run.sh```
+3. Run the container with ```sudo ./run.sh```
 
 ----
 ### Webmin
