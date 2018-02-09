@@ -9,7 +9,8 @@
 ```sudo docker build -t the-name-you-want-to-give:latest .```
 ### Run:
 1. Edit run.sh if you want to run your own build and provide the name you have given in the build step.
-2. ```sudo ./run.sh```
+2. Make run.sh executable ```chmod +x run.sh```
+3. ```sudo ./run.sh```
 
 ### Webmin
 Access webmin at [https://localhost:10000](https://localhost:10000)
