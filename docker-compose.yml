@@ -1,0 +1,13 @@
+version: '2'
+
+services:
+  bind-dhcp:
+    restart: always
+    image: devspyrosv/bind-dhcp-webmin
+    ports:
+    - "53:53/udp"
+    - "53:53/tcp"
+    - "10000:10000/tcp"
+    - "67:67/udp"
+    volumes:
+    - /srv/docker/bind:/data

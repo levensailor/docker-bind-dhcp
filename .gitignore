@@ -1,0 +1,4 @@
+*.deb
+.idea/
+private-run.sh
+docker/
