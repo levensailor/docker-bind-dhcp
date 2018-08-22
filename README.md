@@ -17,6 +17,8 @@
 ----
 ### Webmin
 Access webmin at [https://localhost:10000](https://localhost:10000)
+Username: root
+Password: password
 
 ----
 ### Bonus 
